@@ -52,6 +52,35 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 Projeyi yerel bir sunucuda çalıştırmak için aşağıdaki komutu kullanabilirsiniz:
 ```bash
 npm run start
+```
+Bu komut, projeyi tarayıcınızda açar ve değişiklikleri anında görebilirsiniz.
 
+## Tailwind CSS Sınıfları
 
-[def]: public/img/1.jpg
+Projede kullanılan bazı önemli Tailwind CSS sınıfları şunlardır:
+
+- `grid`, `md:grid-cols-3:` Sayfayı grid düzenine göre düzenler ve medium (md) ekran boyutunda üç sütunlu hale getirir.
+- `text-gray-600`, `font-body:` Metin rengini ve font ailesini ayarlar.
+- `hover:bg-primary`, `hover:text-white:` Hover durumunda arka plan ve metin rengini değiştirir.
+- `transition ease-out duration-300:` Geçiş efektlerini düzenler.
+- `flex`, `justify-end`, `items-center:` Flexbox düzenlemeleri.
+
+## Özellikler
+
+- **Responsive Tasarım:** Farklı ekran boyutlarına uyum sağlar.
+- **Navigasyon Menüsü:** Üst kısımda gezinme menüsü.
+- **Tarif Kartları:** Tarifleri gösteren kartlar.
+- **Hover Efektleri:** Hover durumunda değişen stiller.
+- **Geçiş Animasyonları:** Buton ve kartlarda yumuşak geçiş efektleri.
+
+## Gelecekteki Geliştirmeler
+
+- Daha fazla tarif eklenmesi.
+- Kullanıcı yorumları ve derecelendirme sistemi.
+- Gelişmiş arama ve filtreleme özellikleri.
+- Kullanıcı kayıt ve giriş sistemi.
+
+Bu proje, Tailwind CSS ile web tasarımı yapma konusunda temel bir örnek sunmaktadır. Daha fazla bilgi ve dökümantasyon için [Tailwind CSS](https://tailwindcss.com/) resmi sitesi ziyaret edilebilir.
+
+#### Teşekkürler :)
+#### Furkan Taş
